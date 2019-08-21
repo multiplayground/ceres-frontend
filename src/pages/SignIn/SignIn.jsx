@@ -7,10 +7,11 @@ import SignInComponent from '../../components/SignIn';
 
 const useStyles = makeStyles(theme => ({
   caption: {
-    marginTop: theme.spacing(2),
+    paddingTop: theme.spacing(4),
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center'
+    alignItems: 'center',
+    color: theme.palette.primary.main
   }
 }));
 
@@ -18,9 +19,9 @@ export default function SignIn() {
   const classes = useStyles();
 
   return (
-    <Container>
+    <Container className={classes.signInMain}>
       <Typography component="h1" variant="h2" className={classes.caption}>
-        Ceres
+        CERES
       </Typography>
       <SignInComponent />
     </Container>
