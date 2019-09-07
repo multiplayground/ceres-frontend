@@ -1,6 +1,6 @@
 import React from 'react';
 import { createMuiTheme } from '@material-ui/core/styles';
-/* eslint-disable-next-line  import/no-extraneous-dependencies */
+
 import { ThemeProvider } from '@material-ui/styles';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
