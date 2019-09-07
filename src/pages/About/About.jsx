@@ -12,6 +12,7 @@ export default function About() {
   function dec() {
     dispatch({ type: 'DEC_COUNT' });
   }
+
   return (
     <div>
       <p>About</p>
